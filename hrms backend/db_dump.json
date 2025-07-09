@@ -1,0 +1,3665 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-05T05:24:19.761Z",
+    "user": 3,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "a.saishankar@innovatorstech.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add employee",
+    "content_type": 7,
+    "codename": "add_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change employee",
+    "content_type": 7,
+    "codename": "change_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete employee",
+    "content_type": 7,
+    "codename": "delete_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view employee",
+    "content_type": 7,
+    "codename": "view_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add attendance log",
+    "content_type": 8,
+    "codename": "add_attendancelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change attendance log",
+    "content_type": 8,
+    "codename": "change_attendancelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete attendance log",
+    "content_type": 8,
+    "codename": "delete_attendancelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view attendance log",
+    "content_type": 8,
+    "codename": "view_attendancelog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add late login reason",
+    "content_type": 9,
+    "codename": "add_lateloginreason"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change late login reason",
+    "content_type": 9,
+    "codename": "change_lateloginreason"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete late login reason",
+    "content_type": 9,
+    "codename": "delete_lateloginreason"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view late login reason",
+    "content_type": 9,
+    "codename": "view_lateloginreason"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add daily work report",
+    "content_type": 10,
+    "codename": "add_dailyworkreport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change daily work report",
+    "content_type": 10,
+    "codename": "change_dailyworkreport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete daily work report",
+    "content_type": 10,
+    "codename": "delete_dailyworkreport"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view daily work report",
+    "content_type": 10,
+    "codename": "view_dailyworkreport"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pmOata1Me535l7DEtpJlHQ$3ZMHN73Qx4ktqW8wFWjRU3Ige9k4qyA2Els/xkVh+7o=",
+    "last_login": "2025-07-05T05:24:06.618Z",
+    "is_superuser": true,
+    "username": "Sharim",
+    "first_name": "",
+    "last_name": "",
+    "email": "shaikhsharim404@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:23:28.879Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "a.saishankar@innovatorstech.com",
+    "first_name": "Aedavelli",
+    "last_name": "Sai Shankar",
+    "email": "a.saishankar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:25:46.246Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shaik.khajashareff@innovatorstech.com",
+    "first_name": "Shaik",
+    "last_name": "Khaja Shareef",
+    "email": "shaik.khajashareff@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.899Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "reddi.prasad@innovatorstech.com",
+    "first_name": "Vootukuru",
+    "last_name": "Reddiprasad",
+    "email": "reddi.prasad@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.905Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kavitha@innovatorstech.com",
+    "first_name": "Kavitha",
+    "last_name": "",
+    "email": "kavitha@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.914Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "polireddy@innovatorstech.com",
+    "first_name": "Polireddy",
+    "last_name": "Kukkala",
+    "email": "polireddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.924Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "pradeep@innovatorstech.com",
+    "first_name": "Pathloth",
+    "last_name": "Pradeep",
+    "email": "pradeep@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.936Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "devendar@innovatorstech.com",
+    "first_name": "Nenavath",
+    "last_name": "Devender",
+    "email": "devendar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.945Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sarvani@innovatorstech.com",
+    "first_name": "Bandi",
+    "last_name": "Sarvani",
+    "email": "sarvani@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.956Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "hazeerashaik@innovatorstech.com",
+    "first_name": "Shaik",
+    "last_name": "Hazeera",
+    "email": "hazeerashaik@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.965Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nagurbabu@innovatorstech.com",
+    "first_name": "Shaik",
+    "last_name": "Nagur Babu",
+    "email": "nagurbabu@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.976Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "venkatarayudu@innovatorstech.com",
+    "first_name": "Miriyala",
+    "last_name": "Venkata Rayudu",
+    "email": "venkatarayudu@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.986Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "dineshsagar@innovatorstech.com",
+    "first_name": "Kakkulla",
+    "last_name": "Dinesh Sagar",
+    "email": "dineshsagar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:30.995Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "venkataramanaiah@innovatorstech.com",
+    "first_name": "Venkataramanaiah",
+    "last_name": "Pujari - T",
+    "email": "venkataramanaiah@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.004Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ramya@innovatorstech.com",
+    "first_name": "Ramya",
+    "last_name": "Yandrapalli",
+    "email": "ramya@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.012Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "lakshminarayana@innovatorstech.com",
+    "first_name": "Lakshmi",
+    "last_name": "Narayana Katari",
+    "email": "lakshminarayana@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.021Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shaik.anwar@innovatorstech.com",
+    "first_name": "Shaik",
+    "last_name": "Anwar",
+    "email": "shaik.anwar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.027Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "harshavardhan@innovatorstech.com",
+    "first_name": "Pothireddy",
+    "last_name": "Harshavardhan Reddy",
+    "email": "harshavardhan@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.036Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adiseshu.donthina@innovatorstech.com",
+    "first_name": "Adiseshu",
+    "last_name": "Reddy Donthina",
+    "email": "adiseshu.donthina@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.046Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 22,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mohanreddy@innovatorstech.com",
+    "first_name": "Mohan",
+    "last_name": "Reddy - T",
+    "email": "mohanreddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.056Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "giri.krishna@innovatorstech.com",
+    "first_name": "Giri",
+    "last_name": "Krishna - BD",
+    "email": "giri.krishna@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.068Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 24,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "jayakrishna@innovatorstech.com",
+    "first_name": "Konakala",
+    "last_name": "Jaya Krishna",
+    "email": "jayakrishna@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.079Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 25,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "azharuddin@innovatorstech.com",
+    "first_name": "Syed",
+    "last_name": "Azharuddin",
+    "email": "azharuddin@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.092Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 26,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nagasairam@innovatorstech.com",
+    "first_name": "Kasani",
+    "last_name": "Naga Sai Ram",
+    "email": "nagasairam@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.105Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 27,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "jagadeesh@innovatorstech.com",
+    "first_name": "Katuru",
+    "last_name": "Jagadeesh",
+    "email": "jagadeesh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.118Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 28,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sumanth@innovatorstech.com",
+    "first_name": "Indurthi",
+    "last_name": "Sumanth - BD",
+    "email": "sumanth@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.129Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 29,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "venkatasubbaiah@innovatorstech.com",
+    "first_name": "Munagala",
+    "last_name": "Venkatasubbaiah",
+    "email": "venkatasubbaiah@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.142Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 30,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "santhosh.phani@innovatorstech.com",
+    "first_name": "Santhosh",
+    "last_name": "Phani Krishna - T",
+    "email": "santhosh.phani@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.155Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 31,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mani.prakash@innovatorstech.com",
+    "first_name": "Myla",
+    "last_name": "ManiPrakash",
+    "email": "mani.prakash@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.168Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 32,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "swati.kumari@innovatorstech.com",
+    "first_name": "Swati",
+    "last_name": "Kumari",
+    "email": "swati.kumari@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.183Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 33,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "vamsi.krishna@innovatorstech.com",
+    "first_name": "Bayireddy",
+    "last_name": "Vamsi Krishna",
+    "email": "vamsi.krishna@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.201Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 34,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "harsha.vardhan@innovatorstech.com",
+    "first_name": "Konduru",
+    "last_name": "Harsha Vardhan",
+    "email": "harsha.vardhan@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.215Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 35,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "geeth.kumar@innovatorstech.com",
+    "first_name": "Jalampelli",
+    "last_name": "Geethkumar",
+    "email": "geeth.kumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.231Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 36,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shaik.saleem@innovatorstech.com",
+    "first_name": "Shaik",
+    "last_name": "Saleem",
+    "email": "shaik.saleem@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.246Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 37,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "prem.kumar@innovatorstech.com",
+    "first_name": "Prem",
+    "last_name": "Kumar",
+    "email": "prem.kumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.264Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 38,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "soumya@innovatorstech.com",
+    "first_name": "Marka",
+    "last_name": "Soumya",
+    "email": "soumya@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.282Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 39,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sai.ganesh@innovatorstech.com",
+    "first_name": "Tirakala",
+    "last_name": "Venkata Sai Ganesh",
+    "email": "sai.ganesh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.301Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 40,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "yashvendra.kumar@innovatorstech.com",
+    "first_name": "Yashvendra",
+    "last_name": "Kumar",
+    "email": "yashvendra.kumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.319Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 41,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "siddhu@innovatorstech.com",
+    "first_name": "Murapaka",
+    "last_name": "Siddhu",
+    "email": "siddhu@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.335Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 42,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sanket@innovatorstech.com",
+    "first_name": "Sanket",
+    "last_name": "Shivdas Patil",
+    "email": "sanket@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.359Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 43,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nisha@innovatorstech.com",
+    "first_name": "Nisha",
+    "last_name": "Balu Pathare",
+    "email": "nisha@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.377Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 44,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adesh@innovatorstech.com",
+    "first_name": "Adesh",
+    "last_name": "Gaikwad",
+    "email": "adesh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.394Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 45,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "svapnali@innovatorstech.com",
+    "first_name": "Svapnali",
+    "last_name": "Dattatrya Shahapure",
+    "email": "svapnali@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.413Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 46,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "veerendra@innovatorstech.com",
+    "first_name": "Veerendra",
+    "last_name": "Yeleti",
+    "email": "veerendra@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.429Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 47,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adnan.shaikh@innovatorstech.com",
+    "first_name": "Shaikh",
+    "last_name": "Adnan Shakeel",
+    "email": "adnan.shaikh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.447Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 48,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sai.naveen@innovatorstech.com",
+    "first_name": "Kola",
+    "last_name": "Sainaveen Goud",
+    "email": "sai.naveen@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.465Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 49,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nagendra@innovatorstech.com",
+    "first_name": "Siddamsetti",
+    "last_name": "NagendraBabu",
+    "email": "nagendra@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.482Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 50,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sharim.shaikh@innovatorstech.com",
+    "first_name": "SHARIM",
+    "last_name": "SHAIKH",
+    "email": "sharim.shaikh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.501Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 51,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "chandrakanta.das@innovatorstech.com",
+    "first_name": "Chandrakanta",
+    "last_name": "Das",
+    "email": "chandrakanta.das@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.522Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 52,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "vamshikrishna.b@innovatorstech.com",
+    "first_name": "B.vamshi",
+    "last_name": "krishna",
+    "email": "vamshikrishna.b@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.540Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 53,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "saimanohar@innovatorstech.com",
+    "first_name": "NUNNA",
+    "last_name": "SAI MANOHAR",
+    "email": "saimanohar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.560Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 54,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shaik.gousebasha@innovatorstech.com",
+    "first_name": "SHAIK",
+    "last_name": "GOUSEBASHA",
+    "email": "shaik.gousebasha@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.580Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 55,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "syed.doulath@innovatorstech.com",
+    "first_name": "SYED",
+    "last_name": "DOULAT",
+    "email": "syed.doulath@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.597Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 56,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "aruna@innovatorstech.com",
+    "first_name": "Aruna",
+    "last_name": "Boya",
+    "email": "aruna@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.612Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 57,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "venkata.ganesh@innovatorstech.com",
+    "first_name": "Gandavarapu",
+    "last_name": "Venkata Ganesh",
+    "email": "venkata.ganesh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.626Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 58,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bhargavi@innovatorstech.com",
+    "first_name": "Byrapuneni",
+    "last_name": "Bhargavi",
+    "email": "bhargavi@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.639Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 59,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shaik.sandhani@innovatorstech.com",
+    "first_name": "shaik",
+    "last_name": "sandhani",
+    "email": "shaik.sandhani@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.650Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 60,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "vijaya.sai@innovatorstech.com",
+    "first_name": "KADAVAKUDURU",
+    "last_name": "VIJAYASAI",
+    "email": "vijaya.sai@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.659Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 61,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kalyani@innovatorstech.com",
+    "first_name": "KALYANI",
+    "last_name": "VODDEPALLI",
+    "email": "kalyani@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.671Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 62,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "saikiran.reddy@innovatorstech.com",
+    "first_name": "GUDURU",
+    "last_name": "SAIKIRAN REDDY",
+    "email": "saikiran.reddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.680Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 63,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "pavankumararigela@innovatorstech.com",
+    "first_name": "ARIGELA",
+    "last_name": "SRI RAMA DURGA PAVAN KUMAR",
+    "email": "pavankumararigela@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.694Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 64,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mansigautam@innovatorstech.com",
+    "first_name": "Mansi",
+    "last_name": "Gautam Kamble",
+    "email": "mansigautam@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.707Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 65,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "greeshmanthkumar@innovatorstech.com",
+    "first_name": "Muthyala",
+    "last_name": "Greeshmanth kumar",
+    "email": "greeshmanthkumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.720Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 66,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "chiruprakashreddy@innovatorstech.com",
+    "first_name": "SEELAM",
+    "last_name": "CHIRU PRAKASH REDDY",
+    "email": "chiruprakashreddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.731Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 67,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shubam@innovatorstech.com",
+    "first_name": "Shubham",
+    "last_name": "Kamandar",
+    "email": "shubam@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.745Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 68,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sushant@innovatorstech.com",
+    "first_name": "Sushant",
+    "last_name": "Jagannath Kamble",
+    "email": "sushant@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.758Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 69,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "revanth.reddy@innovatorstech.com",
+    "first_name": "Dasari",
+    "last_name": "Naga Revanth Reddy",
+    "email": "revanth.reddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.773Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 70,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kiran.kumar@innovatorstech.com",
+    "first_name": "TANDRA",
+    "last_name": "KIRANKUMAR",
+    "email": "kiran.kumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.789Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 71,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "raghav@innovatorstech.com",
+    "first_name": "SIMHADRI",
+    "last_name": "TRINAGA RAGHAV",
+    "email": "raghav@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.808Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 72,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gatadisanthoshi@innovatorstech.com",
+    "first_name": "GATADI",
+    "last_name": "SANTHOSHI",
+    "email": "gatadisanthoshi@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.823Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 73,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mohanagopikrishna@innovatorstech.com",
+    "first_name": "DHANEKULA",
+    "last_name": "MOHANA GOPI KRISHNA",
+    "email": "mohanagopikrishna@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.840Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 74,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "harisaichandu@innovatorstech.com",
+    "first_name": "Pallipati",
+    "last_name": "Hari Sai Chandu",
+    "email": "harisaichandu@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.858Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 75,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sudharsanareddybhupathi@innovatorstech.com",
+    "first_name": "Bhupathi",
+    "last_name": "Sudharsana Reddy",
+    "email": "sudharsanareddybhupathi@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.872Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 76,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "saibabamopada@innovatorstech.com",
+    "first_name": "Mopada",
+    "last_name": "saibaba",
+    "email": "saibabamopada@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.882Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 77,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shaiksajid@innovatorstech.com",
+    "first_name": "Shaik",
+    "last_name": "Sajid",
+    "email": "shaiksajid@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.890Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 78,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "dushyanthkumarthandra@innovatorstech.com",
+    "first_name": "Thandra",
+    "last_name": "Dushyanth kumar",
+    "email": "dushyanthkumarthandra@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.897Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 79,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "shravankumarreddy@innovatorstech.com",
+    "first_name": "ONGOLE",
+    "last_name": "SHRAVAN KUMAR REDDY",
+    "email": "shravankumarreddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.905Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 80,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "yogeshwarparasramnirmale@innvoatorstech.com",
+    "first_name": "Yogeshwar",
+    "last_name": "Parasram Nirmale",
+    "email": "yogeshwarparasramnirmale@innvoatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.912Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 81,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "hanishchandra@innovatorstech.com",
+    "first_name": "hanish",
+    "last_name": "kolla",
+    "email": "hanishchandra@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.922Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 82,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "raghavendar.goud@innovatorstech.com",
+    "first_name": "Raghavendra",
+    "last_name": "Goud",
+    "email": "raghavendar.goud@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.929Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 83,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sandeep@innovatorstech.com",
+    "first_name": "Neerudu",
+    "last_name": "Sandeep",
+    "email": "sandeep@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.938Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 84,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "raja.reddy@innovatorstech.com",
+    "first_name": "Goulla",
+    "last_name": "Raja raghavendar Reddy",
+    "email": "raja.reddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.945Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 85,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tirupati.reddy@innovatorstech.com",
+    "first_name": "Tirupati",
+    "last_name": "Reddy - FD",
+    "email": "tirupati.reddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.954Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 86,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "vinod.kumar@innovatorstech.com",
+    "first_name": "Malavath",
+    "last_name": "Vinod Kumar - BD",
+    "email": "vinod.kumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.961Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 87,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "srinivas@innovatorstech.com",
+    "first_name": "M.",
+    "last_name": "Srinivas Goud",
+    "email": "srinivas@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.970Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 88,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sravanigujjula@innovatorstech.com",
+    "first_name": "Gujjula",
+    "last_name": "Sravani",
+    "email": "sravanigujjula@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.980Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 89,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mahender.reddy@innovatorstech.com",
+    "first_name": "Mahender",
+    "last_name": "Reddy",
+    "email": "mahender.reddy@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:31.991Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 90,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "yuvrajvishnu@innovatorstech.com",
+    "first_name": "Yuvraj",
+    "last_name": "Vishnu Khilare",
+    "email": "yuvrajvishnu@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.000Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 91,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "lakavathganesh@innovatorstech.com",
+    "first_name": "Lakavath",
+    "last_name": "Ganesh",
+    "email": "lakavathganesh@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.007Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 92,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sricharan.kuraku@innovatorstech.com",
+    "first_name": "Sricharan",
+    "last_name": "Kuraku",
+    "email": "sricharan.kuraku@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.015Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 93,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ponnala.mounika@innovatorstech.com",
+    "first_name": "Ponnala",
+    "last_name": "Mounika",
+    "email": "ponnala.mounika@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.025Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 94,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "syed.mastanvali@innovatorstech.com",
+    "first_name": "Syed",
+    "last_name": "Mastanvali",
+    "email": "syed.mastanvali@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.033Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 95,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ratna.kumar@innovatorstech.com",
+    "first_name": "Ratna",
+    "last_name": "Kumar",
+    "email": "ratna.kumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.053Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 96,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "p.ajaykumar@innovatorstech.com",
+    "first_name": "Purugula",
+    "last_name": "Ajay Kumar",
+    "email": "p.ajaykumar@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.062Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 97,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "suresh.goud@innovatorstech.com",
+    "first_name": "Suresh",
+    "last_name": "Goud",
+    "email": "suresh.goud@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.069Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 98,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kanna.venkatarao@innovatorstech.com",
+    "first_name": "Kanna",
+    "last_name": "Venkatarao",
+    "email": "kanna.venkatarao@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.079Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 99,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "venkateswararao.garikapati@innovatorstech.com",
+    "first_name": "Garikapati",
+    "last_name": "Venkateswara Rao",
+    "email": "venkateswararao.garikapati@innovatorstech.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-05T05:36:32.085Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "attendance",
+    "model": "employee"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "attendance",
+    "model": "attendancelog"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "attendance",
+    "model": "lateloginreason"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "attendance",
+    "model": "dailyworkreport"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2tq6a1fe3b0qhooe2i5id4k0shobrdnu",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBgAgMu3XsGMjBUqgaS0q6Md9cmXej2v_f-S0Ta1hq3UZY4szgLEKffLVF-lLYDvlO7dZl7W5c5yV2RBx3y2rk8L4f7d1Bp1G_tvXMGTUKrWfEUMmkFVJTDAtmA0RY9OsWEHHR2gEpP1mJ2TBCArHh_AL2fNuM:1uXvNe:ZFCHPwWihEHyYAzgxe-gHa9N6wi0VxokwO_8dhbSDu8",
+    "expire_date": "2025-07-19T05:24:06.626Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qnlzj177sije912hviwmat82so2xilpq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pBBqDAu3XsGMgODVA1NSrsy3l2bdKHb_977LxVpXWpcu8xxzOqsjDr8bkzpIW0D-U7tNuk0tWUeWW-K3mnX1ynL87K7fweVev3WABbxGJw3CQGQwXIg6xkLegNYwoCDJPTFBhaHZAilMLh0gkKCXr0_sfI3Yg:1uXjri:OvK21RWa94GnPIFI4NuUx36onec7Zo4i13VsIBwRbi8",
+    "expire_date": "2025-07-18T17:06:22.200Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x44hh5zhvm05v8pkfx1licseikoved7z",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pBBqDAu3XsGMgODVA1NSrsy3l2bdKHb_977LxVpXWpcu8xxzOqsjDr8bkzpIW0D-U7tNuk0tWUeWW-K3mnX1ynL87K7fweVev3WABbxGJw3CQGQwXIg6xkLegNYwoCDJPTFBhaHZAilMLh0gkKCXr0_sfI3Yg:1uXjrC:HN1Ryzq-tb1rPW-_eyt6U4FJxB7Pn9r-9lhBTm1wYI0",
+    "expire_date": "2025-07-18T17:05:50.870Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "email": "a.saishankar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.893Z",
+    "created_at": "2025-07-05T05:36:30.893Z",
+    "updated_at": "2025-07-05T05:36:30.893Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "email": "shaik.khajashareff@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.901Z",
+    "created_at": "2025-07-05T05:36:30.901Z",
+    "updated_at": "2025-07-05T05:36:30.901Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 5,
+  "fields": {
+    "user": 6,
+    "email": "reddi.prasad@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.909Z",
+    "created_at": "2025-07-05T05:36:30.909Z",
+    "updated_at": "2025-07-05T05:36:30.909Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 6,
+  "fields": {
+    "user": 7,
+    "email": "kavitha@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.919Z",
+    "created_at": "2025-07-05T05:36:30.919Z",
+    "updated_at": "2025-07-05T05:36:30.919Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 7,
+  "fields": {
+    "user": 8,
+    "email": "polireddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.929Z",
+    "created_at": "2025-07-05T05:36:30.930Z",
+    "updated_at": "2025-07-05T05:36:30.930Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 8,
+  "fields": {
+    "user": 9,
+    "email": "pradeep@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.941Z",
+    "created_at": "2025-07-05T05:36:30.941Z",
+    "updated_at": "2025-07-05T05:36:30.941Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 9,
+  "fields": {
+    "user": 10,
+    "email": "devendar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.952Z",
+    "created_at": "2025-07-05T05:36:30.952Z",
+    "updated_at": "2025-07-05T05:36:30.952Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 10,
+  "fields": {
+    "user": 11,
+    "email": "sarvani@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.960Z",
+    "created_at": "2025-07-05T05:36:30.960Z",
+    "updated_at": "2025-07-05T05:36:30.960Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 11,
+  "fields": {
+    "user": 12,
+    "email": "hazeerashaik@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.971Z",
+    "created_at": "2025-07-05T05:36:30.971Z",
+    "updated_at": "2025-07-05T05:36:30.971Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 12,
+  "fields": {
+    "user": 13,
+    "email": "nagurbabu@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.981Z",
+    "created_at": "2025-07-05T05:36:30.981Z",
+    "updated_at": "2025-07-05T05:36:30.981Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 13,
+  "fields": {
+    "user": 14,
+    "email": "venkatarayudu@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:30.990Z",
+    "created_at": "2025-07-05T05:36:30.990Z",
+    "updated_at": "2025-07-05T05:36:30.990Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 14,
+  "fields": {
+    "user": 15,
+    "email": "dineshsagar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.000Z",
+    "created_at": "2025-07-05T05:36:31.000Z",
+    "updated_at": "2025-07-05T05:36:31.000Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 15,
+  "fields": {
+    "user": 16,
+    "email": "venkataramanaiah@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.007Z",
+    "created_at": "2025-07-05T05:36:31.007Z",
+    "updated_at": "2025-07-05T05:36:31.007Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 16,
+  "fields": {
+    "user": 17,
+    "email": "ramya@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.017Z",
+    "created_at": "2025-07-05T05:36:31.017Z",
+    "updated_at": "2025-07-05T05:36:31.017Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 17,
+  "fields": {
+    "user": 18,
+    "email": "lakshminarayana@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.023Z",
+    "created_at": "2025-07-05T05:36:31.023Z",
+    "updated_at": "2025-07-05T05:36:31.023Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 18,
+  "fields": {
+    "user": 19,
+    "email": "shaik.anwar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.031Z",
+    "created_at": "2025-07-05T05:36:31.031Z",
+    "updated_at": "2025-07-05T05:36:31.031Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 19,
+  "fields": {
+    "user": 20,
+    "email": "harshavardhan@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.041Z",
+    "created_at": "2025-07-05T05:36:31.041Z",
+    "updated_at": "2025-07-05T05:36:31.041Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 20,
+  "fields": {
+    "user": 21,
+    "email": "adiseshu.donthina@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.050Z",
+    "created_at": "2025-07-05T05:36:31.051Z",
+    "updated_at": "2025-07-05T05:36:31.051Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 21,
+  "fields": {
+    "user": 22,
+    "email": "mohanreddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.059Z",
+    "created_at": "2025-07-05T05:36:31.059Z",
+    "updated_at": "2025-07-05T05:36:31.059Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 22,
+  "fields": {
+    "user": 23,
+    "email": "giri.krishna@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.073Z",
+    "created_at": "2025-07-05T05:36:31.073Z",
+    "updated_at": "2025-07-05T05:36:31.073Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 23,
+  "fields": {
+    "user": 24,
+    "email": "jayakrishna@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.086Z",
+    "created_at": "2025-07-05T05:36:31.086Z",
+    "updated_at": "2025-07-05T05:36:31.086Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 24,
+  "fields": {
+    "user": 25,
+    "email": "azharuddin@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.099Z",
+    "created_at": "2025-07-05T05:36:31.099Z",
+    "updated_at": "2025-07-05T05:36:31.099Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 25,
+  "fields": {
+    "user": 26,
+    "email": "nagasairam@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.110Z",
+    "created_at": "2025-07-05T05:36:31.110Z",
+    "updated_at": "2025-07-05T05:36:31.110Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 26,
+  "fields": {
+    "user": 27,
+    "email": "jagadeesh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.124Z",
+    "created_at": "2025-07-05T05:36:31.124Z",
+    "updated_at": "2025-07-05T05:36:31.124Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 27,
+  "fields": {
+    "user": 28,
+    "email": "sumanth@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.137Z",
+    "created_at": "2025-07-05T05:36:31.137Z",
+    "updated_at": "2025-07-05T05:36:31.137Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 28,
+  "fields": {
+    "user": 29,
+    "email": "venkatasubbaiah@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.149Z",
+    "created_at": "2025-07-05T05:36:31.149Z",
+    "updated_at": "2025-07-05T05:36:31.149Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 29,
+  "fields": {
+    "user": 30,
+    "email": "santhosh.phani@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.160Z",
+    "created_at": "2025-07-05T05:36:31.160Z",
+    "updated_at": "2025-07-05T05:36:31.160Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 30,
+  "fields": {
+    "user": 31,
+    "email": "mani.prakash@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.175Z",
+    "created_at": "2025-07-05T05:36:31.175Z",
+    "updated_at": "2025-07-05T05:36:31.175Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 31,
+  "fields": {
+    "user": 32,
+    "email": "swati.kumari@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.192Z",
+    "created_at": "2025-07-05T05:36:31.192Z",
+    "updated_at": "2025-07-05T05:36:31.192Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 32,
+  "fields": {
+    "user": 33,
+    "email": "vamsi.krishna@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.207Z",
+    "created_at": "2025-07-05T05:36:31.207Z",
+    "updated_at": "2025-07-05T05:36:31.207Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 33,
+  "fields": {
+    "user": 34,
+    "email": "harsha.vardhan@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.223Z",
+    "created_at": "2025-07-05T05:36:31.224Z",
+    "updated_at": "2025-07-05T05:36:31.224Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 34,
+  "fields": {
+    "user": 35,
+    "email": "geeth.kumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.239Z",
+    "created_at": "2025-07-05T05:36:31.239Z",
+    "updated_at": "2025-07-05T05:36:31.239Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 35,
+  "fields": {
+    "user": 36,
+    "email": "shaik.saleem@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.255Z",
+    "created_at": "2025-07-05T05:36:31.255Z",
+    "updated_at": "2025-07-05T05:36:31.255Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 36,
+  "fields": {
+    "user": 37,
+    "email": "prem.kumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.274Z",
+    "created_at": "2025-07-05T05:36:31.274Z",
+    "updated_at": "2025-07-05T05:36:31.274Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 37,
+  "fields": {
+    "user": 38,
+    "email": "soumya@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.292Z",
+    "created_at": "2025-07-05T05:36:31.292Z",
+    "updated_at": "2025-07-05T05:36:31.292Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 38,
+  "fields": {
+    "user": 39,
+    "email": "sai.ganesh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.310Z",
+    "created_at": "2025-07-05T05:36:31.310Z",
+    "updated_at": "2025-07-05T05:36:31.310Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 39,
+  "fields": {
+    "user": 40,
+    "email": "yashvendra.kumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.326Z",
+    "created_at": "2025-07-05T05:36:31.326Z",
+    "updated_at": "2025-07-05T05:36:31.326Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 40,
+  "fields": {
+    "user": 41,
+    "email": "siddhu@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.350Z",
+    "created_at": "2025-07-05T05:36:31.350Z",
+    "updated_at": "2025-07-05T05:36:31.350Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 41,
+  "fields": {
+    "user": 42,
+    "email": "sanket@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.368Z",
+    "created_at": "2025-07-05T05:36:31.369Z",
+    "updated_at": "2025-07-05T05:36:31.369Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 42,
+  "fields": {
+    "user": 43,
+    "email": "nisha@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.386Z",
+    "created_at": "2025-07-05T05:36:31.386Z",
+    "updated_at": "2025-07-05T05:36:31.386Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 43,
+  "fields": {
+    "user": 44,
+    "email": "adesh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.405Z",
+    "created_at": "2025-07-05T05:36:31.405Z",
+    "updated_at": "2025-07-05T05:36:31.405Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 44,
+  "fields": {
+    "user": 45,
+    "email": "svapnali@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.422Z",
+    "created_at": "2025-07-05T05:36:31.422Z",
+    "updated_at": "2025-07-05T05:36:31.422Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 45,
+  "fields": {
+    "user": 46,
+    "email": "veerendra@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.439Z",
+    "created_at": "2025-07-05T05:36:31.439Z",
+    "updated_at": "2025-07-05T05:36:31.439Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 46,
+  "fields": {
+    "user": 47,
+    "email": "adnan.shaikh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.457Z",
+    "created_at": "2025-07-05T05:36:31.457Z",
+    "updated_at": "2025-07-05T05:36:31.457Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 47,
+  "fields": {
+    "user": 48,
+    "email": "sai.naveen@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.473Z",
+    "created_at": "2025-07-05T05:36:31.473Z",
+    "updated_at": "2025-07-05T05:36:31.473Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 48,
+  "fields": {
+    "user": 49,
+    "email": "nagendra@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.491Z",
+    "created_at": "2025-07-05T05:36:31.491Z",
+    "updated_at": "2025-07-05T05:36:31.491Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 49,
+  "fields": {
+    "user": 50,
+    "email": "sharim.shaikh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.513Z",
+    "created_at": "2025-07-05T05:36:31.513Z",
+    "updated_at": "2025-07-05T05:36:31.513Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 50,
+  "fields": {
+    "user": 51,
+    "email": "chandrakanta.das@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.530Z",
+    "created_at": "2025-07-05T05:36:31.530Z",
+    "updated_at": "2025-07-05T05:36:31.530Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 51,
+  "fields": {
+    "user": 52,
+    "email": "vamshikrishna.b@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.552Z",
+    "created_at": "2025-07-05T05:36:31.552Z",
+    "updated_at": "2025-07-05T05:36:31.552Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 52,
+  "fields": {
+    "user": 53,
+    "email": "saimanohar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.571Z",
+    "created_at": "2025-07-05T05:36:31.571Z",
+    "updated_at": "2025-07-05T05:36:31.571Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 53,
+  "fields": {
+    "user": 54,
+    "email": "shaik.gousebasha@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.588Z",
+    "created_at": "2025-07-05T05:36:31.588Z",
+    "updated_at": "2025-07-05T05:36:31.588Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 54,
+  "fields": {
+    "user": 55,
+    "email": "syed.doulath@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.606Z",
+    "created_at": "2025-07-05T05:36:31.606Z",
+    "updated_at": "2025-07-05T05:36:31.606Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 55,
+  "fields": {
+    "user": 56,
+    "email": "aruna@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.619Z",
+    "created_at": "2025-07-05T05:36:31.619Z",
+    "updated_at": "2025-07-05T05:36:31.619Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 56,
+  "fields": {
+    "user": 57,
+    "email": "venkata.ganesh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.633Z",
+    "created_at": "2025-07-05T05:36:31.633Z",
+    "updated_at": "2025-07-05T05:36:31.633Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 57,
+  "fields": {
+    "user": 58,
+    "email": "bhargavi@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.644Z",
+    "created_at": "2025-07-05T05:36:31.644Z",
+    "updated_at": "2025-07-05T05:36:31.644Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 58,
+  "fields": {
+    "user": 59,
+    "email": "shaik.sandhani@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.655Z",
+    "created_at": "2025-07-05T05:36:31.655Z",
+    "updated_at": "2025-07-05T05:36:31.655Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 59,
+  "fields": {
+    "user": 60,
+    "email": "vijaya.sai@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.666Z",
+    "created_at": "2025-07-05T05:36:31.666Z",
+    "updated_at": "2025-07-05T05:36:31.666Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 60,
+  "fields": {
+    "user": 61,
+    "email": "kalyani@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.675Z",
+    "created_at": "2025-07-05T05:36:31.675Z",
+    "updated_at": "2025-07-05T05:36:31.675Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 61,
+  "fields": {
+    "user": 62,
+    "email": "saikiran.reddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.689Z",
+    "created_at": "2025-07-05T05:36:31.689Z",
+    "updated_at": "2025-07-05T05:36:31.689Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 62,
+  "fields": {
+    "user": 63,
+    "email": "pavankumararigela@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.701Z",
+    "created_at": "2025-07-05T05:36:31.701Z",
+    "updated_at": "2025-07-05T05:36:31.701Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 63,
+  "fields": {
+    "user": 64,
+    "email": "mansigautam@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.713Z",
+    "created_at": "2025-07-05T05:36:31.713Z",
+    "updated_at": "2025-07-05T05:36:31.713Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 64,
+  "fields": {
+    "user": 65,
+    "email": "greeshmanthkumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.725Z",
+    "created_at": "2025-07-05T05:36:31.725Z",
+    "updated_at": "2025-07-05T05:36:31.725Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 65,
+  "fields": {
+    "user": 66,
+    "email": "chiruprakashreddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.739Z",
+    "created_at": "2025-07-05T05:36:31.739Z",
+    "updated_at": "2025-07-05T05:36:31.739Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 66,
+  "fields": {
+    "user": 67,
+    "email": "shubam@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.753Z",
+    "created_at": "2025-07-05T05:36:31.753Z",
+    "updated_at": "2025-07-05T05:36:31.753Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 67,
+  "fields": {
+    "user": 68,
+    "email": "sushant@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.764Z",
+    "created_at": "2025-07-05T05:36:31.764Z",
+    "updated_at": "2025-07-05T05:36:31.764Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 68,
+  "fields": {
+    "user": 69,
+    "email": "revanth.reddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.779Z",
+    "created_at": "2025-07-05T05:36:31.779Z",
+    "updated_at": "2025-07-05T05:36:31.779Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 69,
+  "fields": {
+    "user": 70,
+    "email": "kiran.kumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.798Z",
+    "created_at": "2025-07-05T05:36:31.798Z",
+    "updated_at": "2025-07-05T05:36:31.798Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 70,
+  "fields": {
+    "user": 71,
+    "email": "raghav@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.815Z",
+    "created_at": "2025-07-05T05:36:31.815Z",
+    "updated_at": "2025-07-05T05:36:31.815Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 71,
+  "fields": {
+    "user": 72,
+    "email": "gatadisanthoshi@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.831Z",
+    "created_at": "2025-07-05T05:36:31.831Z",
+    "updated_at": "2025-07-05T05:36:31.831Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 72,
+  "fields": {
+    "user": 73,
+    "email": "mohanagopikrishna@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.850Z",
+    "created_at": "2025-07-05T05:36:31.850Z",
+    "updated_at": "2025-07-05T05:36:31.850Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 73,
+  "fields": {
+    "user": 74,
+    "email": "harisaichandu@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.866Z",
+    "created_at": "2025-07-05T05:36:31.866Z",
+    "updated_at": "2025-07-05T05:36:31.866Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 74,
+  "fields": {
+    "user": 75,
+    "email": "sudharsanareddybhupathi@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.876Z",
+    "created_at": "2025-07-05T05:36:31.876Z",
+    "updated_at": "2025-07-05T05:36:31.876Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 75,
+  "fields": {
+    "user": 76,
+    "email": "saibabamopada@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.886Z",
+    "created_at": "2025-07-05T05:36:31.886Z",
+    "updated_at": "2025-07-05T05:36:31.886Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 76,
+  "fields": {
+    "user": 77,
+    "email": "shaiksajid@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.893Z",
+    "created_at": "2025-07-05T05:36:31.893Z",
+    "updated_at": "2025-07-05T05:36:31.893Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 77,
+  "fields": {
+    "user": 78,
+    "email": "dushyanthkumarthandra@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.902Z",
+    "created_at": "2025-07-05T05:36:31.902Z",
+    "updated_at": "2025-07-05T05:36:31.902Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 78,
+  "fields": {
+    "user": 79,
+    "email": "shravankumarreddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.908Z",
+    "created_at": "2025-07-05T05:36:31.908Z",
+    "updated_at": "2025-07-05T05:36:31.908Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 79,
+  "fields": {
+    "user": 80,
+    "email": "yogeshwarparasramnirmale@innvoatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.918Z",
+    "created_at": "2025-07-05T05:36:31.918Z",
+    "updated_at": "2025-07-05T05:36:31.918Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 80,
+  "fields": {
+    "user": 81,
+    "email": "hanishchandra@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.926Z",
+    "created_at": "2025-07-05T05:36:31.926Z",
+    "updated_at": "2025-07-05T05:36:31.926Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 81,
+  "fields": {
+    "user": 82,
+    "email": "raghavendar.goud@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.934Z",
+    "created_at": "2025-07-05T05:36:31.934Z",
+    "updated_at": "2025-07-05T05:36:31.934Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 82,
+  "fields": {
+    "user": 83,
+    "email": "sandeep@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.942Z",
+    "created_at": "2025-07-05T05:36:31.942Z",
+    "updated_at": "2025-07-05T05:36:31.942Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 83,
+  "fields": {
+    "user": 84,
+    "email": "raja.reddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.951Z",
+    "created_at": "2025-07-05T05:36:31.951Z",
+    "updated_at": "2025-07-05T05:36:31.951Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 84,
+  "fields": {
+    "user": 85,
+    "email": "tirupati.reddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.957Z",
+    "created_at": "2025-07-05T05:36:31.957Z",
+    "updated_at": "2025-07-05T05:36:31.957Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 85,
+  "fields": {
+    "user": 86,
+    "email": "vinod.kumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.966Z",
+    "created_at": "2025-07-05T05:36:31.966Z",
+    "updated_at": "2025-07-05T05:36:31.966Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 86,
+  "fields": {
+    "user": 87,
+    "email": "srinivas@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.974Z",
+    "created_at": "2025-07-05T05:36:31.974Z",
+    "updated_at": "2025-07-05T05:36:31.974Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 87,
+  "fields": {
+    "user": 88,
+    "email": "sravanigujjula@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.986Z",
+    "created_at": "2025-07-05T05:36:31.986Z",
+    "updated_at": "2025-07-05T05:36:31.986Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 88,
+  "fields": {
+    "user": 89,
+    "email": "mahender.reddy@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:31.994Z",
+    "created_at": "2025-07-05T05:36:31.994Z",
+    "updated_at": "2025-07-05T05:36:31.994Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 89,
+  "fields": {
+    "user": 90,
+    "email": "yuvrajvishnu@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.003Z",
+    "created_at": "2025-07-05T05:36:32.003Z",
+    "updated_at": "2025-07-05T05:36:32.003Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 90,
+  "fields": {
+    "user": 91,
+    "email": "lakavathganesh@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.011Z",
+    "created_at": "2025-07-05T05:36:32.011Z",
+    "updated_at": "2025-07-05T05:36:32.011Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 91,
+  "fields": {
+    "user": 92,
+    "email": "sricharan.kuraku@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.020Z",
+    "created_at": "2025-07-05T05:36:32.020Z",
+    "updated_at": "2025-07-05T05:36:32.020Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 92,
+  "fields": {
+    "user": 93,
+    "email": "ponnala.mounika@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.030Z",
+    "created_at": "2025-07-05T05:36:32.030Z",
+    "updated_at": "2025-07-05T05:36:32.030Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 93,
+  "fields": {
+    "user": 94,
+    "email": "syed.mastanvali@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.040Z",
+    "created_at": "2025-07-05T05:36:32.040Z",
+    "updated_at": "2025-07-05T05:36:32.040Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 94,
+  "fields": {
+    "user": 95,
+    "email": "ratna.kumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.058Z",
+    "created_at": "2025-07-05T05:36:32.058Z",
+    "updated_at": "2025-07-05T05:36:32.058Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 95,
+  "fields": {
+    "user": 96,
+    "email": "p.ajaykumar@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.066Z",
+    "created_at": "2025-07-05T05:36:32.066Z",
+    "updated_at": "2025-07-05T05:36:32.066Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 96,
+  "fields": {
+    "user": 97,
+    "email": "suresh.goud@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.069Z",
+    "created_at": "2025-07-05T05:36:32.069Z",
+    "updated_at": "2025-07-05T05:36:32.069Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 97,
+  "fields": {
+    "user": 98,
+    "email": "kanna.venkatarao@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.079Z",
+    "created_at": "2025-07-05T05:36:32.079Z",
+    "updated_at": "2025-07-05T05:36:32.079Z"
+  }
+},
+{
+  "model": "attendance.employee",
+  "pk": 98,
+  "fields": {
+    "user": 99,
+    "email": "venkateswararao.garikapati@innovatorstech.com",
+    "login_time": null,
+    "logout_time": null,
+    "hours_worked": "0.00",
+    "status": "leave",
+    "last_activity": "2025-07-05T05:36:32.085Z",
+    "created_at": "2025-07-05T05:36:32.085Z",
+    "updated_at": "2025-07-05T05:36:32.085Z"
+  }
+}
+]
